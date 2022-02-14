@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>OAuth</title>
+
+    <link href="./Resources/Login.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="content unauthorized">
+      <div class="top">
+        <img class="img-Channeli" src="./Resources/Images/Channeli.png" />
+        <h1>LOGIN TO CONTINUE</h1>
+      </div>
+      <div class="content-bottom">
+        <a class="btn" href="/auth">SIGN IN WITH CHANNEL I</a>
+      </div>
+    </div>
+    <div class="content authorized" style="display: none">
+      <div class="top">
+        <img class="img-github" src="github.png" />
+        <h1>
+          <span class="party-popper">🎉</span><br />Awesome!<br />You're
+          authorized 🔒
+        </h1>
+      </div>
+    </div>
+    <script type="text/javascript" src="./Resources/Login.js"></script>
+  </body>
+</html>
